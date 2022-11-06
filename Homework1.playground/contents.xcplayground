@@ -3,5 +3,9 @@
     <pages>
         <page name='CountOfArray'/>
         <page name='Palindrome'/>
+        <page name='Pyramid'/>
+        <page name='Multiples3or5'/>
+        <page name='Fibonacci'/>
+        <page name='LargestPrimeFactor'/>
     </pages>
 </playground>
