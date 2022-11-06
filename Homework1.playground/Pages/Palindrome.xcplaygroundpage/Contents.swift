@@ -1,9 +1,12 @@
 import Foundation
 
-var word : String = "nalan"
+var word = "Sir I demand I am a maid .!? na:med Iris"//"Socorram-me subi no onibus em marrocos"//"taco cat taco cat"//
 
-//call function
-isPalindrome(word : word)
+let arr : [String] = [".",",",":","!","?"," "]
+for i in arr {
+    word = word.replacingOccurrences(of: i , with: "")
+}
+isPalindrome(word : word.lowercased())
 
 func isPalindrome(word: String) -> Bool {
     let idx = word.count/2
@@ -17,7 +20,7 @@ func isPalindrome(word: String) -> Bool {
             return false
         }
     }
-    print("Yey! You write palindrome word ")
+    print("Yey! You wrote palindrome word ")
     return true
 }
 
